@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welflex - Pintura Industrial</title>
+    <link rel="shortcut icon" href="/clientes/icon-welflex.svg">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+
+    <script src="/js/map.js"></script>  
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="./svg/logo2.svg" alt="Welflex" class="logo">
+            </a>
+            <nav class="grid-12 header-menu">
+                <ul>
+                    <li><a href="sobre.html" class="menu-ativo">Sobre</a></li>
+                    <li><a href="servico.html">Serviço</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>        
+        </div>
+    </header>
+
+    <section class="intro-interna">
+        <div class="container">
+            <h2 class="subtitulo">Sobre</h1>
+            <p>conheça mais a Welflex</p>
+        </div>
+    </section>
+
+    <section class="missao container">
+        <div class="sobre">
+            <div class="grid-8 historia">
+                <h4 class="tit-int">História, missão e visão</h4>  
+                <p>Fundada em 2009, a Welflex tem como missão atender a demanda de diversos segmentos do mercado metalúrgico
+                e estabelecer laços de parceria ao prestar os nossos serviços, visando o bem estar do meio ambiente.
+                </p><br>
+                <p>Fornecemos qualidade e soluções na prestação de serviço de pintura eletrostática, formando parcerias eficientes
+                e estratégicas para nossos clientes.
+                </p><br>              
+                    Os fundadores possuem vasta experiência de atuação no ramo metalúrgico e prestação de serviços,
+                    buscando sempre uma filosofia de trabalho voltada para o atendimento ao cliente.
+                </p>  
+            </div> 
+            <div class="grid-8 empresa">
+                <h4 class="tit-int">Empresa e serviço</h4>    
+                <p>A sede — localizada em Curitiba — conta com uma área administrativa e produção em um galpão com 900 m²,
+                    cujo fluxo de trabalho está dimensionado para um processo de pintura expressa, com alto volume de circulação de peças.
+                </p><br>
+                <p>A confecção ocorre dentro de um processo inteligente, monitorado em todas as etapas, da entrada até a fase final de
+                    embalagem e entrega.
+                </p>
+            </div>
+
+            <div class="grid-16">
+                <img src="/img/pó-welflex.jpg" alt="Tinta em Pó">
+            </div>
+        </div>
+    </section>
+
+    <section class="qualidade container">
+            <h2 class="subtitulo">Qualidade</h2>
+            <img src="./svg/marca-quali.svg" alt="Welflex">
+            <ul class="qualidade-lista">
+                <li class="grid-8">
+                    <h3>Durabilidade</h3>
+                    <p>Graças a alta tecnologia, há efetividade na plenitude da pintura e de sua duração.</p>
+                </li>
+                <li class="grid-8">
+                    <h3>Sustentabilidade</h3>
+                    <p>Além de não agredir o meio ambiente, há atenção especial à água na qual volta para a natureza.</p>
+                </li>
+            </ul>
+    </section>
+
+    <section class="orcamento container">
+        <div class="call">
+            <p>Faça o seu orçamento</p>
+            <button class="btn"><a href="contato.html">Orçamento</a></button>
+        </div>
+
+
+    </section class="container grid-8">
+        <div id="map"></div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="grid-8 historia">
+                    <h4 class="tit-int">Nossa história</h4>
+                    <p>A Welflex Pintura Eletrostática é uma empresa prestadora de serviços com foco no tratamento de superfícies
+                        e pintura eletrostática a pó, voltada para qualidade,sempre com a mais recente tecnologia, visando à 
+                        máxima eficiência, e sem agressão ao meio ambiente.
+                    </p>
+                </div>
+
+                <div class="grid-4 contato">
+                    <h4 class="tit-int">Contato</h4>
+                    <ul>
+                        <li>– +55 (41) 3289-5293</li>
+                        <li>– +55 (41) 99814-3344</li>
+                        <li>– welflex@welflex.com.br</li>
+                    </ul>
+                </div>
+
+                <div class="grid-4 redes-sociais">
+                    <h4 class="tit-int">Redes sociais</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/welflexpinturaindustrial"><img src="/clientes/fb.svg" alt="Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/welflexpintura/"><img src="/clientes/ig.svg" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+           </div>
+        </div>
+
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">© Welflex Pinturas</p>
+            </div>
+        </div>
+    </footer>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBdnadc_1dWQcP1uwbsazyFJE3LItvwLY&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+</body>
+</html>
